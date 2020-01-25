@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefasTests/GerenciadorDeTarefasTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/GerenciadorDeTarefasTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefasTests/UnitTest1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -24,17 +30,23 @@
       <list>
         <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1WrmO0xtNMIp4nB0h71P7KMMOMI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -93,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579916052535</updated>
-      <workItem from="1579916058204" duration="1440000" />
+      <workItem from="1579916058204" duration="2697000" />
     </task>
     <servers />
   </component>
@@ -116,5 +128,9 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="278" y="113" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/0.27.1366.704@0.27.1366.704" timestamp="1579942074812" />
+    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog" timestamp="1579944469144">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1579944469144" />
   </component>
 </project>

@@ -12,10 +12,20 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CQRSTarefas.sln" t="IncludeFlat" />
       <e p="GerenciadorDeTarefas" t="IncludeRecursive">
+        <e p="Application" t="Include" />
         <e p="Controllers" t="Include">
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
+        <e p="Domain" t="Include">
+          <e p="Commands" t="Include" />
+          <e p="Entities" t="Include">
+            <e p="Entity.cs" t="Include" />
+            <e p="Tarefa.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include" />
+        </e>
         <e p="GerenciadorDeTarefas.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -34,8 +44,14 @@
         </e>
       </e>
       <e p="GerenciadorDeTarefasTests" t="IncludeRecursive">
+        <e p="Application" t="Include" />
+        <e p="Domain" t="Include">
+          <e p="Entities" t="Include">
+            <e p="EntityTests.cs" t="Include" />
+            <e p="TarefaTests.cs" t="Include" />
+          </e>
+        </e>
         <e p="GerenciadorDeTarefasTests.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
