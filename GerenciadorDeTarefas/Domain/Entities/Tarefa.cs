@@ -2,7 +2,7 @@ using System;
 
 namespace GerenciadorDeTarefas.Domain.Entities
 {
-    public class Tarefa
+    public class Tarefa: Entity
     {
         public Tarefa(string titulo, string descricao)
         {

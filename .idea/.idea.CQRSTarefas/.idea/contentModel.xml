@@ -22,10 +22,17 @@
             <e p="Entity.cs" t="Include" />
             <e p="Tarefa.cs" t="Include" />
           </e>
-          <e p="Repositories" t="Include" />
+          <e p="Repositories" t="Include">
+            <e p="ITarefaRepository.cs" t="Include" />
+          </e>
         </e>
         <e p="GerenciadorDeTarefas.csproj" t="IncludeRecursive" />
-        <e p="Infrastructure" t="Include" />
+        <e p="Infrastructure" t="Include">
+          <e p="Context.cs" t="Include" />
+          <e p="Repositories" t="Include">
+            <e p="TarefaRepository.cs" t="Include" />
+          </e>
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />

@@ -18,8 +18,6 @@
     <ItemGroup>
       <Folder Include="Application" />
       <Folder Include="Domain\Commands" />
-      <Folder Include="Domain\Repositories" />
-      <Folder Include="Infrastructure" />
     </ItemGroup>
 
 

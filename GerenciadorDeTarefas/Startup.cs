@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using GerenciadorDeTarefas.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -46,8 +47,9 @@ namespace GerenciadorDeTarefas
                         }
                     });
             });
-            // services.AddDbContext<Context>(options => 
-            //     options.UseSqlite("Data Source=Todo.db"));
+            
+            services.AddDbContext<Context>(options => 
+                options.UseSqlite("Data Source=Todo.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
