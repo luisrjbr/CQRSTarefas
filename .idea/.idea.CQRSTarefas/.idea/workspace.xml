@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Repositories/ITarefaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Context.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,14 +29,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/EntityTests.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Repositories/ITarefaRepository.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Context.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579916052535</updated>
-      <workItem from="1579916058204" duration="3676000" />
+      <workItem from="1579916058204" duration="4329000" />
+      <workItem from="1580048448054" duration="1874000" />
     </task>
     <servers />
   </component>
@@ -125,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -140,9 +139,9 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1579945298227" />
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1579945213890">
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580063013077">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1579945213890" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580063013077" />
   </component>
 </project>

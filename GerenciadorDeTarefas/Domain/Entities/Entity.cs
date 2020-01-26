@@ -6,7 +6,7 @@ namespace GerenciadorDeTarefas.Domain.Entities
     {
         public Entity()
         {
-            Id = new Guid();
+            Id = Guid.NewGuid();
             DataCriacao = DateTime.Now;
         }
 
