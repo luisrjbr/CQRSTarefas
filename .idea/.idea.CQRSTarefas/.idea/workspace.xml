@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -110,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579916052535</updated>
       <workItem from="1579916058204" duration="4329000" />
-      <workItem from="1580048448054" duration="1874000" />
+      <workItem from="1580048448054" duration="3009000" />
     </task>
     <servers />
   </component>
@@ -139,9 +138,9 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1579945298227" />
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580063013077">
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580064150647">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580063013077" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580064150647" />
   </component>
 </project>
