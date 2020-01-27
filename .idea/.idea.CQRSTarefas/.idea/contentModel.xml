@@ -12,12 +12,19 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CQRSTarefas.sln" t="IncludeFlat" />
       <e p="GerenciadorDeTarefas" t="IncludeRecursive">
-        <e p="Application" t="Include" />
+        <e p="Application" t="Include">
+          <e p="CommandSide" t="Include">
+            <e p="Commands" t="Include" />
+          </e>
+          <e p="QuerySide" t="Include">
+            <e p="Queries" t="Include" />
+            <e p="ViewModels" t="Include" />
+          </e>
+        </e>
         <e p="Controllers" t="Include">
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="TarefaController.cs" t="Include" />
         </e>
         <e p="Domain" t="Include">
-          <e p="Commands" t="Include" />
           <e p="Entities" t="Include">
             <e p="Entity.cs" t="Include" />
             <e p="Tarefa.cs" t="Include" />

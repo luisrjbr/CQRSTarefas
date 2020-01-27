@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/EntityTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,10 +37,11 @@
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Repositories/ITarefaRepository.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Context.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" />
       </list>
     </option>
   </component>
@@ -109,12 +115,16 @@
       <option name="presentableId" value="Default" />
       <updated>1579916052535</updated>
       <workItem from="1579916058204" duration="4329000" />
-      <workItem from="1580048448054" duration="3009000" />
+      <workItem from="1580048448054" duration="5226000" />
+      <workItem from="1580138464615" duration="3650000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -130,6 +140,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom" timestamp="1580163945166">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580163945166" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center" timestamp="1580163945165">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left" timestamp="1580163945165">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right" timestamp="1580163945165">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
     <state x="278" y="113" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1579942074812">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
@@ -138,9 +164,13 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1579945298227" />
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580064150647">
+    <state x="278" y="114" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580162967214">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580064150647" />
+    <state x="278" y="114" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.704@0.27.1366.704" timestamp="1580162967214" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580162549739">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580162549739" />
   </component>
 </project>

@@ -62,6 +62,11 @@ namespace GerenciadorDeTarefas
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Webinar DIO - Todo V1");
+            });
 
             app.UseHttpsRedirection();
 

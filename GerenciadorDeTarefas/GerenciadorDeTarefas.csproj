@@ -16,8 +16,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Application" />
-      <Folder Include="Domain\Commands" />
+      <Folder Include="Application\CommandSide\Commands" />
+      <Folder Include="Application\QuerySide\Queries" />
+      <Folder Include="Application\QuerySide\ViewModels" />
     </ItemGroup>
 
 
