@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,9 @@
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -116,7 +112,7 @@
       <updated>1579916052535</updated>
       <workItem from="1579916058204" duration="4329000" />
       <workItem from="1580048448054" duration="5226000" />
-      <workItem from="1580138464615" duration="3650000" />
+      <workItem from="1580138464615" duration="3998000" />
     </task>
     <servers />
   </component>
@@ -168,9 +164,9 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="278" y="114" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.704@0.27.1366.704" timestamp="1580162967214" />
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580162549739">
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580164095803">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580162549739" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580164095803" />
   </component>
 </project>
