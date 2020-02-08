@@ -15,11 +15,5 @@
       <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Application\CommandSide\Commands" />
-      <Folder Include="Application\QuerySide\Queries" />
-      <Folder Include="Application\QuerySide\ViewModels" />
-    </ItemGroup>
-
 
 </Project>

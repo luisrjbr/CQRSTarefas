@@ -1,24 +1,29 @@
 using System.Threading.Tasks;
+using GerenciadorDeTarefas.Application.CommandSide.Commands.InserirTarefa;
+using GerenciadorDeTarefas.Application.QuerySide.Queries.ObtemTodasAsTarefas;
+using GerenciadorDeTarefas.REST.Payloads;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GerenciadorDeTarefas.Controllers
+namespace GerenciadorDeTarefas.REST.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
     public class TarefaController: ControllerBase
     {
-        private readonly Mediator _mediator;
+        private readonly IMediator _mediator;
 
-        public TarefaController(Mediator mediator)
+        public TarefaController(IMediator mediator)
         {
             _mediator = mediator;
         }
         
         [HttpPost]
-        public async Task<ActionResult> Insere()
+        public async Task<ActionResult> Insere(InsereTarefaPayload request)
         {
-            return await Task.FromResult(Ok());
+            var command = new InserirTarefaCommand(request.Titulo, request.Descricao);
+            await _mediator.Send(command);
+            return Ok();
         }
 
         [HttpPost]
@@ -30,7 +35,8 @@ namespace GerenciadorDeTarefas.Controllers
         [HttpGet]
         public async Task<ActionResult> ObtemTodas()
         {
-            return await Task.FromResult<ActionResult>(Ok());
+            var result = await _mediator.Send(new ObtemTodasAsTarefasQuery());
+            return Ok(result);
         }
 
         [HttpGet]

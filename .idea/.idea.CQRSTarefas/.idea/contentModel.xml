@@ -14,15 +14,24 @@
       <e p="GerenciadorDeTarefas" t="IncludeRecursive">
         <e p="Application" t="Include">
           <e p="CommandSide" t="Include">
-            <e p="Commands" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="InserirTarefa" t="Include">
+                <e p="InserirTarefaCommand.cs" t="Include" />
+                <e p="InserirTarefaCommandHandler.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="QuerySide" t="Include">
-            <e p="Queries" t="Include" />
-            <e p="ViewModels" t="Include" />
+            <e p="Queries" t="Include">
+              <e p="ObtemTodasAsTarefas" t="Include">
+                <e p="ObtemTodasAsTarefasQuery.cs" t="Include" />
+                <e p="ObtemTodasAsTarefasQueryHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ViewModels" t="Include">
+              <e p="TarefaViewModel.cs" t="Include" />
+            </e>
           </e>
-        </e>
-        <e p="Controllers" t="Include">
-          <e p="TarefaController.cs" t="Include" />
         </e>
         <e p="Domain" t="Include">
           <e p="Entities" t="Include">
@@ -36,6 +45,11 @@
         <e p="GerenciadorDeTarefas.csproj" t="IncludeRecursive" />
         <e p="Infrastructure" t="Include">
           <e p="Context.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="20200128160212_Initial.Designer.cs" t="Include" />
+            <e p="20200128160212_Initial.cs" t="Include" />
+            <e p="ContextModelSnapshot.cs" t="Include" />
+          </e>
           <e p="Repositories" t="Include">
             <e p="TarefaRepository.cs" t="Include" />
           </e>
@@ -44,8 +58,16 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="REST" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="TarefaController.cs" t="Include" />
+          </e>
+          <e p="Payloads" t="Include">
+            <e p="InsereTarefaPayload.cs" t="Include" />
+          </e>
+        </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
+        <e p="Todo.db" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -58,7 +80,18 @@
         </e>
       </e>
       <e p="GerenciadorDeTarefasTests" t="IncludeRecursive">
-        <e p="Application" t="Include" />
+        <e p="Application" t="Include">
+          <e p="CommandSide" t="Include">
+            <e p="Commands" t="Include">
+              <e p="InserirTarefaCommandHandlerTests.cs" t="Include" />
+            </e>
+          </e>
+          <e p="QuerySide" t="Include">
+            <e p="Queries" t="Include">
+              <e p="ObtemTodasAsTarefasQueryHandlerTests.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Domain" t="Include">
           <e p="Entities" t="Include">
             <e p="EntityTests.cs" t="Include" />
@@ -66,6 +99,11 @@
           </e>
         </e>
         <e p="GerenciadorDeTarefasTests.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="Factories" t="Include">
+            <e p="ContextFactory.cs" t="Include" />
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

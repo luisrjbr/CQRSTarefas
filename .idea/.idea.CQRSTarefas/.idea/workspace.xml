@@ -2,27 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7954797b-2bc0-4c84-a673-faf4a6a1417b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/ViewModels/TarefaViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Migrations/20200128160212_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Migrations/20200128160212_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Migrations/ContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/REST/Payloads/InsereTarefaPayload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/CommandSide/Commands/InserirTarefaCommandHandlerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/QuerySide/Queries/ObtemTodasAsTarefasQueryHandlerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/Helpers/Factories/ContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CQRSTarefas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/REST/Controllers/TarefaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/GerenciadorDeTarefas.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefas/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefas/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GerenciadorDeTarefasTests/GerenciadorDeTarefasTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GerenciadorDeTarefasTests/GerenciadorDeTarefasTests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/REST/Controllers/TarefaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Helpers/Factories/ContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/EntityTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/CommandSide/Commands/InserirTarefaCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Repositories/ITarefaRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/REST/Payloads/InsereTarefaPayload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A7D550DF-CD9E-41F3-A088-957DE7D22F02/4e/ac31c9d4/NonGenericAsyncFunctionAssertions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Domain/Entities/TarefaTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/ViewModels/TarefaViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQueryHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/QuerySide/Queries/ObtemTodasAsTarefasQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,10 +75,25 @@
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Context.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Infrastructure/Repositories/TarefaRepository.cs" />
         <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Entity.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
-        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Domain/Entities/Tarefa.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Helpers/Factories/ContextFactory.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/CommandSide/Commands/InsereTarefaCommandHandlerTests.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InsereTarefa/InsereTarefaCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Startup.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InsereTarefa/InsereTarefaCommand.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Controllers/TarefaController.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommand.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/CommandSide/Commands/InserirTarefa/InserirTarefaCommandHandler.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/CommandSide/Commands/InserirTarefaCommandHandlerTests.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/REST/Payloads/InsereTarefaPayload.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefas.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/ViewModels/TarefaViewModel.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQuery.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefasTests/Application/QuerySide/Queries/ObtemTodasAsTarefasQueryHandlerTests.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/Application/QuerySide/Queries/ObtemTodasAsTarefas/ObtemTodasAsTarefasQueryHandler.cs" />
+        <option value="$PROJECT_DIR$/GerenciadorDeTarefas/REST/Controllers/TarefaController.cs" />
       </list>
     </option>
   </component>
@@ -52,9 +108,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GerenciadorDeTarefas">
     <configuration name="GerenciadorDeTarefas" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -112,7 +170,8 @@
       <updated>1579916052535</updated>
       <workItem from="1579916058204" duration="4329000" />
       <workItem from="1580048448054" duration="5226000" />
-      <workItem from="1580138464615" duration="3998000" />
+      <workItem from="1580138464615" duration="7074000" />
+      <workItem from="1580222829942" duration="9505000" />
     </task>
     <servers />
   </component>
@@ -136,37 +195,114 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="163" key="GridCell.Tab.0.bottom" timestamp="1580163945166">
+    <state x="278" y="39" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580227427050">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="163" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580163945166" />
-    <state width="1320" height="163" key="GridCell.Tab.0.center" timestamp="1580163945165">
+    <state x="278" y="39" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.704@0.27.1366.704" timestamp="1580227427050" />
+    <state width="740" height="466" key="DebuggerActiveHint" timestamp="1580222930295">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="163" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
-    <state width="1320" height="163" key="GridCell.Tab.0.left" timestamp="1580163945165">
+    <state width="740" height="466" key="DebuggerActiveHint/0.27.1366.704@0.27.1366.704" timestamp="1580222930295" />
+    <state width="1322" height="109" key="GridCell.Tab.0.bottom" timestamp="1580249065665">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="163" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
-    <state width="1320" height="163" key="GridCell.Tab.0.right" timestamp="1580163945165">
+    <state width="1322" height="109" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580249065665" />
+    <state width="1322" height="109" key="GridCell.Tab.0.center" timestamp="1580249065664">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="163" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1580163945165" />
+    <state width="1322" height="109" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1580249065664" />
+    <state width="1322" height="109" key="GridCell.Tab.0.left" timestamp="1580249065664">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1322" height="109" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1580249065664" />
+    <state width="1322" height="109" key="GridCell.Tab.0.right" timestamp="1580249065665">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1322" height="109" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1580249065665" />
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1580249063770">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580249063770" />
+    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1580249063754">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1580249063754" />
+    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1580249063754">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1580249063754" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1580249063754">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1580249063754" />
+    <state width="1320" height="204" key="GridCell.Tab.2.bottom" timestamp="1580249063774">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.2.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580249063774" />
+    <state width="1320" height="204" key="GridCell.Tab.2.center" timestamp="1580249063772">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.2.center/0.27.1366.704@0.27.1366.704" timestamp="1580249063772" />
+    <state width="1320" height="204" key="GridCell.Tab.2.left" timestamp="1580249063771">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.2.left/0.27.1366.704@0.27.1366.704" timestamp="1580249063771" />
+    <state width="1320" height="204" key="GridCell.Tab.2.right" timestamp="1580249063774">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.2.right/0.27.1366.704@0.27.1366.704" timestamp="1580249063774" />
+    <state width="1320" height="204" key="GridCell.Tab.3.bottom" timestamp="1580249063775">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.3.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580249063775" />
+    <state width="1320" height="204" key="GridCell.Tab.3.center" timestamp="1580249063775">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.3.center/0.27.1366.704@0.27.1366.704" timestamp="1580249063775" />
+    <state width="1320" height="204" key="GridCell.Tab.3.left" timestamp="1580249063774">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.3.left/0.27.1366.704@0.27.1366.704" timestamp="1580249063774" />
+    <state width="1320" height="204" key="GridCell.Tab.3.right" timestamp="1580249063775">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.3.right/0.27.1366.704@0.27.1366.704" timestamp="1580249063775" />
+    <state width="1320" height="204" key="GridCell.Tab.4.bottom" timestamp="1580249063776">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.4.bottom/0.27.1366.704@0.27.1366.704" timestamp="1580249063776" />
+    <state width="1320" height="204" key="GridCell.Tab.4.center" timestamp="1580249063776">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.4.center/0.27.1366.704@0.27.1366.704" timestamp="1580249063776" />
+    <state width="1320" height="204" key="GridCell.Tab.4.left" timestamp="1580249063776">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.4.left/0.27.1366.704@0.27.1366.704" timestamp="1580249063776" />
+    <state width="1320" height="204" key="GridCell.Tab.4.right" timestamp="1580249063776">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.4.right/0.27.1366.704@0.27.1366.704" timestamp="1580249063776" />
     <state x="278" y="113" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1579942074812">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="278" y="113" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/0.27.1366.704@0.27.1366.704" timestamp="1579942074812" />
-    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog" timestamp="1579945298227">
+    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog" timestamp="1580240445488">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1579945298227" />
+    <state x="317" y="69" width="722" height="618" key="RiderGenerateDialog/0.27.1366.704@0.27.1366.704" timestamp="1580240445488" />
+    <state x="0" y="27" width="1366" height="704" key="SettingsEditor" timestamp="1580236192954">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="0" y="27" width="1366" height="704" key="SettingsEditor/0.27.1366.704@0.27.1366.704" timestamp="1580236192954" />
     <state x="278" y="114" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580162967214">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="278" y="114" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.704@0.27.1366.704" timestamp="1580162967214" />
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580164095803">
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup" timestamp="1580236354369">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580164095803" />
+    <state x="346" y="52" width="672" height="678" key="search.everywhere.popup/0.27.1366.704@0.27.1366.704" timestamp="1580236354369" />
+    <state x="692" y="52" width="1344" height="678" key="search.everywhere.popup/0.27.2732.704@0.27.2732.704" timestamp="1580236077665" />
   </component>
 </project>
